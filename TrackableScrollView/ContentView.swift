@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var contentOffSet: CGFloat = 0
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Content offset: \(self.contentOffSet)")
+            TrackableScrollView(contentOffset: $contentOffSet) {
+            //ScrollView {
+                ForEach(0..<100) { index in
+                    Text("Item \(index)")
+                    .padding()
+                }
+            }
+        }
     }
 }
 

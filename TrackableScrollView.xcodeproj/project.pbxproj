@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84AEC92F2431D84800DE839C /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEC92E2431D84800DE839C /* TrackableScrollView.swift */; };
 		84F4919A2431AC0D0048D350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F491992431AC0D0048D350 /* AppDelegate.swift */; };
 		84F4919C2431AC0D0048D350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4919B2431AC0D0048D350 /* SceneDelegate.swift */; };
 		84F4919E2431AC0D0048D350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4919D2431AC0D0048D350 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84AEC92E2431D84800DE839C /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		84F491962431AC0D0048D350 /* TrackableScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackableScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F491992431AC0D0048D350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F4919B2431AC0D0048D350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				84F491992431AC0D0048D350 /* AppDelegate.swift */,
 				84F4919B2431AC0D0048D350 /* SceneDelegate.swift */,
 				84F4919D2431AC0D0048D350 /* ContentView.swift */,
+				84AEC92E2431D84800DE839C /* TrackableScrollView.swift */,
 				84F4919F2431AC140048D350 /* Assets.xcassets */,
 				84F491A42431AC140048D350 /* LaunchScreen.storyboard */,
 				84F491A72431AC140048D350 /* Info.plist */,
@@ -149,6 +152,7 @@
 				84F4919A2431AC0D0048D350 /* AppDelegate.swift in Sources */,
 				84F4919C2431AC0D0048D350 /* SceneDelegate.swift in Sources */,
 				84F4919E2431AC0D0048D350 /* ContentView.swift in Sources */,
+				84AEC92F2431D84800DE839C /* TrackableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
